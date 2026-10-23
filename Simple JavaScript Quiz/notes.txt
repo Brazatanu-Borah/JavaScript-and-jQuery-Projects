@@ -1,0 +1,13 @@
+This is a simple JavaScript quiz application >>
+  - will have 5 questions, with 4 answer options for each
+  - used form element with radio buttons for the options
+  - includes some basic form validation, when the form is submitted without selecting a option
+  - if all answers are correct, final score is displayed, dynamically in the browser using Javascript
+
+JS concepts used >>
+  - variables
+  - loops
+  - array creation
+  - function with return statement, prevent form submission
+  - capturing user input
+  - inserting HTML using JavaScript

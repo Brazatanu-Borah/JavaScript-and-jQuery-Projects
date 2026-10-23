@@ -1,0 +1,64 @@
+body {
+	background: #f06226;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+button,
+input,
+select,
+textarea {
+	font-family: inherit;
+}
+
+.container {
+	max-width: 960px;
+	width: 80%;
+	background: #199fdb;
+	margin: 20px auto;
+	overflow: auto;
+	padding: 25px;
+}
+
+header {
+	text-align: center;
+	border-bottom: solid 1px #fff;
+}
+
+header h1 {
+	margin: 0;
+	padding: 0;
+}
+
+header p {
+	padding: 0;
+	margin-top: 5px;
+	color: #000;
+}
+
+section {
+	min-height: 400px;
+}
+
+footer {
+	text-align: center;
+}
+
+button[type="submit"] {
+	background: #f06226;
+	border: 0;
+	color: #fff;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+
+#quiz-results h3 {
+	background: #f06226;
+	padding: 10px;
+	margin: 10px 0;
+}
+
+#quiz-results span {
+	color: #000;
+	font-weight: bold;
+}
