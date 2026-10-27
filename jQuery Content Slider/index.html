@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/style.css">
+
+		<title>jQuery Content Slider</title>
+	</head>
+
+	<body>
+
+		<div id="container">
+
+			<header>
+				<h1>jQuery Content Slider</h1>
+			</header>
+
+			<main>
+
+				<!-- Previous arrow graphic -->
+				<img src="./images/arrow-left.png" alt="Prev" id="prev" />
+
+				<!-- Container/Wrapper for all the slides -->
+				<div id="slide-wrapper">
+
+					<div class="slide">
+						<!-- '.active' class will be added to the next slide when we press next button, using jQuery -->
+						<div class="slide-copy">
+							<h2>Slider One</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae commodo sem. Integer eros nibh, molestie congue elementum quis, mattis nec tortor. Vivamus sed hendrerit sed vitae orci convallis.</p>
+						</div>
+						<img src="./images/slide1.jpg" alt="" />
+					</div>
+
+					<div class="slide">
+						<div class="slide-copy">
+							<h2>Slider Two</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae commodo sem. Integer eros nibh, molestie congue elementum quis, mattis nec tortor. Vivamus sed hendrerit sed vitae orci convallis.</p>
+						</div>
+						<img src="./images/slide2.jpg" alt="" />
+					</div>
+
+					<div class="slide">
+						<div class="slide-copy">
+							<h2>Slider Three</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae commodo sem. Integer eros nibh, molestie congue elementum quis, mattis nec tortor. Vivamus sed hendrerit sed vitae orci convallis.</p>
+						</div>
+						<img src="./images/slide3.jpg" alt="" />
+					</div>
+
+					<div class="slide">
+						<div class="slide-copy">
+							<h2>Slider Four</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae commodo sem. Integer eros nibh, molestie congue elementum quis, mattis nec tortor. Vivamus sed hendrerit sed vitae orci convallis.</p>
+						</div>
+						<img src="./images/slide4.jpg" alt="" />
+					</div>
+
+					<div class="slide">
+						<div class="slide-copy">
+							<h2>Slider Five</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae commodo sem. Integer eros nibh, molestie congue elementum quis, mattis nec tortor. Vivamus sed hendrerit sed vitae orci convallis.</p>
+						</div>
+						<img src="./images/slide5.jpg" alt="" />
+					</div>
+
+				</div><!-- ./slide-wrapper -->
+
+				<!-- Next arrow graphic -->
+				<img src="./images/arrow-right.png" alt="Next" id="next" />
+
+			</main>
+
+		</div><!-- ./container -->
+
+
+
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+		<script src="./js/script.js"></script>
+	</body>
+
+</html>
