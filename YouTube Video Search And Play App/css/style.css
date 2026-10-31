@@ -1,0 +1,156 @@
+/* BASE AND OVERALL LAYOUT STYLING */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.625;
+  color: #666;
+  background: #ebebeb;
+  /* font-size: 14px; */
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+
+
+/* 📝 TODO: MAKE THE LAYOUT USE FLEXBOX for better alignment */
+
+#container {
+  max-width: 740px;
+  background: #fff;
+  margin: 0 auto;
+}
+
+.clr {
+  clear: both;
+}
+
+header {
+  padding: 30px 20px;
+  background: #f4f4f4;
+}
+
+header h1 {
+  color: #222;
+  margin-bottom: 5px;
+}
+
+header span {
+  color: #CD201F;
+}
+
+section {
+  padding: 30px 20px 20px;
+}
+
+footer {
+  padding: 20px;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+
+
+/* FORM STYLING */
+#search-form {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.field-container {
+  display: block;
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.search-field {
+  display: block;
+
+  /* initial width (will animate to become wider) */
+  width: 45%;
+
+  padding: 11px 43px 11px 7px;
+  background: #fff;
+  color: #ccc;
+  border: solid 1px #c8c8c8;
+  font-size: 1.6em;
+  border-bottom-color: #d2e2e7;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 0 6px #f0f0f0;
+}
+
+/* search icon will sit inside the <input> */
+#search-btn {
+  position: absolute;
+  right: 360px;
+  top: 11px;
+  height: 32px;
+  width: 32px;
+  border: 0;
+  cursor: pointer;
+
+  /* 📝 TODO: CHANGE TO AN SVG OR AN HTML ENTITY */
+  background: transparent url("../images/search.png") no-repeat top left;
+
+  /* on hover opacity will increase slightly */
+  opacity: 0.65;
+}
+
+#search-btn:hover {
+  opacity: 0.9;
+}
+
+
+
+
+/* RESULTS UL AND LI TAGS STYLING */
+#results li {
+  padding: 10px 0;
+  border-bottom: 1px #ccc dotted;
+  list-style: none;
+  overflow: auto;
+}
+
+.list-left {
+  float: left;
+  width: 20%;
+}
+
+.list-left img {
+  width: 100%;
+  padding: 3px;
+  border: solid #ccc 1px;
+}
+
+.list-right {
+  float: right;
+  width: 78%;
+}
+
+.cTitle {
+  color: #CD201F;
+}
+
+
+/* NEXT AND PREV BUTTONS STYLING */
+.button-container {
+  margin-top: 25px;
+}
+
+.paging-button {
+  background: #f4f4f4;
+  padding: 8px 13px;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  color: #333;
+  margin: 10px;
+  cursor: pointer;
+}

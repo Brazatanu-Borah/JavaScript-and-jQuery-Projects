@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>TubeScout</title>
+  </head>
+
+  <body>
+
+
+
+    <div id="container">
+
+      <header>
+        <h1>Tube<span>Scout</span></h1>
+        <p>Search all Youtube videos</p>
+      </header>
+
+      <section>
+        <!-- <form id="search-form" name="search-form" onsubmit="return search();"> -->
+
+        <!-- Removed onsubmit attribute; jQuery now handles submission cleanly -->
+        <form id="search-form" name="search-form">
+          <div class="field-container">
+            <input type="search" id="query" class="search-field" placeholder="Search YouTube..." />
+
+            <!-- 📝 TODO: CHANGE INPUT TO HTML5 BUTTON ELEMENT -->
+            <input type="submit" name="search-btn" id="search-btn" value="" />
+          </div>
+        </form>
+
+        <!-- we will populate our results here #results in list items -->
+        <ul id="results"></ul>
+        <!-- this button will activate the search functionality of the app -->
+        <div id="buttons"></div>
+      </section>
+
+      <footer>
+        <p>Copyright &copy; 2027, All Rights Reserved.</p>
+      </footer>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="./js/jquery.fancybox.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+
+</html>
