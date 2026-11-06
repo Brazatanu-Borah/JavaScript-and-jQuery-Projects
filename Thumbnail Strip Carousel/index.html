@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="./css/style.css" />
+
+		<title>Thumbnail Strip Carousel</title>
+	</head>
+
+	<body>
+
+		<div id="container">
+			<article id="slider">
+
+				<header>
+					<h3>jQuery Thumbnail Strip Carousel</h3>
+				</header>
+
+				<section id="slides">
+					<!-- main images are full width of the slider -->
+					<div class="slide"><img src="./images/slides/device-imac.png" alt="active" width="900" height="200" /></div>
+					<div class="slide"><img src="./images/slides/device-macbook.png" alt="active" width="900" height="200" /></div>
+					<div class="slide"><img src="./images/slides/device-iphone.png" alt="active" width="900" height="200" /></div>
+					<div class="slide"><img src="./images/slides/device-ipad.png" alt="active" width="900" height="200" /></div>
+				</section><!-- /.slides -->
+
+				<nav id="menu">
+					<ul>
+						<li class="sep"></li>
+						
+						<li class="product">
+							<a href="">
+								<img src="./images/slides/device-imac-thumb.png" alt="thumbnail" />
+							</a>
+						</li>
+
+						<li class="product">
+							<a href="">
+								<img src="./images/slides/device-macbook-thumb.png" alt="thumbnail" />
+							</a>
+						</li>
+
+						<li class="product">
+							<a href="">
+								<img src="./images/slides/device-iphone-thumb.png" alt="thumbnail" />
+							</a>
+						</li>
+
+						<li class="product">
+							<a href="">
+								<img src="./images/slides/device-ipad-thumb.png" alt="thumbnail" />
+							</a>
+						</li>
+					</ul>
+				</nav><!-- /#menu -->
+
+			</article><!-- /.slider -->
+		</div><!-- /.container -->
+
+
+
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+		<script src="./js/script.js"></script>
+	</body>
+
+</html>
+
+
+<!-- A filmstrip slider (or thumbnail strip carousel) is a web design UI pattern that mimics a roll of motion-picture film or a row of sequential photo frames. It lets users preview and click through a sequence of images, videos, or portfolio cards using a main stage paired with a smaller interactive "thumb slider" or strip navigation
+
+Core Concepts & Layout
+
+	• Main Stage (Focal Card / Display View): The primary area showing the active media item in high resolution with titles, descriptions, or CTAs.
+	• Filmstrip / Thumb Slider: A horizontal or vertical row of miniature thumbnail frames (often styled with perforation notches, dark cinema borders, or smooth track scrolling) that syncs with the main display.
+	• Interactive Control: Clicking or dragging a thumbnail on the strip updates the main stage, and scrolling the main stage highlights the active thumb.
+
+-->
