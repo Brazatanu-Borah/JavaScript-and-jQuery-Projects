@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>P Gallery | View Portfolio</title>
+
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightbox2@2.12.0/dist/css/lightbox.min.css" integrity="sha256-WoT007zANaSefDI9onrduF7cCgBXLxfz4ppR13BMh14=" crossorigin="anonymous" />
+
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
+
+	<body>
+
+
+		<!-- Header : Brand and nav tabs (will be made filterable using jQuery) -->
+		<header>
+			<div class="container">
+				<h1 class="logo">P GALLERY</h1>
+				<nav>
+					<ul>
+						<li class="current"><a href="#">All Projects</a></li>
+						<li><a href="#">Design</a></li>
+						<li><a href="#">Programming</a></li>
+						<li><a href="#">CMS</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+
+		<!-- Simple tagline -->
+		<section class="tagline">
+			<div class="container">
+				<h1>View Our Work</h1>
+			</div>
+		</section>
+
+
+		<!-- Gallery Section -->
+		<section>
+
+			<div class="container">
+				<!-- h1 content will change dynamically according the li selected from the nav tab list -->
+				<h1 id="heading">All Projects</h1>
+
+				<!-- Actual gallery container (ul) + each li is a gallery item -->
+				<ul id="gallery">
+					<li class="design">
+						<a href="./images/web1.jpg" data-lightbox="projects" data-title="Project 1" data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elituctor vitae velit mollis"><img src="./images/web1.jpg" alt="" /></a>
+					</li>
+					<li class="design programming">
+						<a href="./images/web2.jpg" data-lightbox="projects" data-title="Project 2" data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elituctor vitae velit mollis"><img src="./images/web2.jpg" alt="" /></a>
+					</li>
+					<li class="cms">
+						<a href="./images/web3.jpg" data-lightbox="projects" data-title="Project 3" data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elituctor vitae velit mollis"><img src="./images/web3.jpg" alt="" /></a>
+					</li>
+					<li class="cms design">
+						<a href="./images/web4.jpg" data-lightbox="projects" data-title="Project 4" data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elituctor vitae velit mollis"><img src="./images/web4.jpg" alt="" /></a>
+					</li>
+					<li class="design cms programming">
+						<a href="./images/web5.jpg" data-lightbox="projects" data-title="Project 5" data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elituctor vitae velit mollis"><img src="./images/web5.jpg" alt="" /></a>
+					</li>
+					<li class="design">
+						<a href="./images/web6.jpg" data-lightbox="projects" data-title="Project 6" data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elituctor vitae velit mollis"><img src="./images/web6.jpg" alt="" /></a>
+					</li>
+					<li class="programming">
+						<a href="./images/web7.jpg" data-lightbox="projects" data-title="Project 7" data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elituctor vitae velit mollis"><img src="./images/web7.jpg" alt="" /></a>
+					</li>
+					<li class="cms design">
+						<a href="./images/web8.jpg" data-lightbox="projects" data-title="Project 8" data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elituctor vitae velit mollis"><img src="./images/web8.jpg" alt="" /></a>
+					</li>
+					<li class="cms">
+						<a href="./images/web9.jpg" data-lightbox="projects" data-title="Project 9" data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elituctor vitae velit mollis"><img src="./images/web9.jpg" alt="" /></a>
+					</li>
+					<li class="programming design cms">
+						<a href="./images/web10.jpg" data-lightbox="projects" data-title="Project 10" data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elituctor vitae velit mollis"><img src="./images/web10.jpg" alt="" /></a>
+					</li>
+				</ul><!-- /#gallery -->
+
+			</div>
+		</section>
+
+
+		<!-- Footer (simple) -->
+		<footer>
+			<p>Copyright &copy; 2027, All Rights Reserved</p>
+		</footer>
+
+
+
+
+
+
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+		<script src="https://cdn.jsdelivr.net/npm/lightbox2@2.12.0/dist/js/lightbox.min.js" integrity="sha256-wCsf3UahXWU4dEdmi8Otmys8tHY41MDCECc7gscAbms=" crossorigin="anonymous"></script>
+
+		<script src="./js/main.js"></script>
+	</body>
+
+</html>
